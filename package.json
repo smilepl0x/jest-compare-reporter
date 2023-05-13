@@ -1,0 +1,25 @@
+{
+  "name": "jest-compare-reporter",
+  "version": "1.0.0-alpha.0",
+  "description": "A Jest reporter that will compare coverage for staged git files against the most recent previous coverage report",
+  "main": "lib/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jest",
+    "compare"
+  ],
+  "author": "DF",
+  "license": "ISC",
+  "dependencies": {
+    "@jest/reporters": "29.5.0"
+  },
+  "devDependencies": {
+    "@types/istanbul-lib-coverage": "^2.0.4",
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.4"
+  }
+}
