@@ -3,6 +3,7 @@
   "version": "1.0.0-alpha.0",
   "description": "A Jest reporter that will compare coverage for staged git files against the most recent previous coverage report",
   "main": "lib/index.js",
+  "bin": "bin.js",
   "type": "commonjs",
   "scripts": {
     "build": "tsc",
