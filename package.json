@@ -1,6 +1,6 @@
 {
   "name": "jest-compare-reporter",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "A Jest reporter that will compare coverage for staged git files against the most recent previous coverage report",
   "main": "lib/index.js",
   "bin": "bin.js",
