@@ -5,13 +5,19 @@
   "main": "lib/index.js",
   "bin": "bin.js",
   "type": "commonjs",
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "jest",
-    "compare"
+    "compare",
+    "reporter",
+    "git",
+    "hooks"
   ],
   "author": "DF",
   "license": "ISC",
